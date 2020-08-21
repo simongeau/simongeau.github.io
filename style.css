@@ -2,3 +2,7 @@ html {
   max-width: 100vw;
   overflow: hidden;
 }
+#resource-bar thead {
+  display:none;
+  
+}
