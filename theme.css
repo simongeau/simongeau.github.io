@@ -6,14 +6,11 @@ html {
 }
 #left-column,
 #right-column,
-#game-navigation, {
+#game-navigation,
+#resource-bar {
   float: none;
   clear: both;
 }
 #ircchat {
 display: none;
-}
-#resource-bar {
-  float: none;
-  clear: both;
 }
