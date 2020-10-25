@@ -5,10 +5,15 @@ html {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 #left-column,
-#right-column {
+#right-column,
+#game-navigation, {
   float: none;
   clear: both;
 }
 #ircchat {
 display: none;
+}
+#resource-bar {
+  float: none;
+  clear: both;
 }
