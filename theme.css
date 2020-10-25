@@ -8,6 +8,7 @@ html {
 #right-column,
 #game-navigation,
 #resource-bar {
+  width: 100%;
   float: none;
   clear: both;
 }
