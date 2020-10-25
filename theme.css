@@ -13,5 +13,5 @@ html {
   clear: both;
 }
 #ircchat {
-display: none;
+display: none !important;
 }
