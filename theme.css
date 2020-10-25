@@ -9,4 +9,6 @@ html {
   float: none;
   clear: both;
 }
-
+#ircchat {
+display: none;
+}
