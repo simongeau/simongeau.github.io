@@ -15,3 +15,6 @@ html {
 #ircchat {
 display: none !important;
 }
+#inner-container {
+  width: auto !important;
+ }
