@@ -23,4 +23,5 @@ display: none !important;
  }
 .game-header {
 width: 100%;
+  clear: both;
 }
