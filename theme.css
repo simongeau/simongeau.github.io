@@ -15,12 +15,15 @@ html {
 #ircchat {
 display: none !important;
 }
-#header,
+
 #middle,
 #inner-container {
   width: auto !important;
   overflow: hidden;
  }
+#header {
+  width: auto !important;
+}
 .game-header {
 width: 100%;
   clear: both;
