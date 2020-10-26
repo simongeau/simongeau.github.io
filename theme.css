@@ -25,3 +25,16 @@ display: none !important;
 width: 100%;
   clear: both;
 }
+body {
+  width: 280px;
+}
+@media (in-device-width: 350px) {
+  body {
+  width: 300px;
+}
+}
+@media (in-device-width: 400px) {
+  body {
+  width: 350px;
+}
+}
