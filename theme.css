@@ -30,14 +30,30 @@ width: 100%;
 }
 body {
   width: 280px;
+  margin: 0 auto;
 }
-@media (in-device-width: 350px) {
+@media (min-device-width: 350px) {
   body {
   width: 300px;
 }
 }
-@media (in-device-width: 400px) {
+@media (min-device-width: 400px) {
   body {
   width: 350px;
+}
+}
+@media (min-device-width: 450px) {
+  body {
+  width: 400px;
+}
+}
+@media (min-device-width: 500px) {
+  body {
+  width: 450px;
+}
+}
+@media (min-device-width: 600px) {
+  body {
+  width: 550px;
 }
 }
