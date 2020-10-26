@@ -21,3 +21,6 @@ display: none !important;
   width: auto !important;
   overflow: hidden;
  }
+.game-header {
+width: 100%;
+}
