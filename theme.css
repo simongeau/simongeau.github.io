@@ -20,6 +20,7 @@ body {
   flex-direction: column-reverse;
 }
 
+#header-navigation-2nd-level,
 #header {
   width: 100%;
   height: auto;
@@ -30,10 +31,12 @@ body {
   font-size: 18px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
+#header-navigation-2nd-level a,
 #header a {
   text-decoration: none;
   color: #ffffff;
 }
+#header-navigation-2nd-level:before,
 #header:before {
   display: block;
   content: "";
@@ -46,21 +49,25 @@ body {
   width: 100vw;
   transform: translate(-50%, 0);
 }
+#header-navigation-2nd-level #account-container,
 #header #account-container {
   position: absolute;
   top: 0;
   right: 0;
   display: none;
 }
+#header-navigation-2nd-level #header-logo,
 #header #header-logo {
   display: none;
 }
+#header-navigation-2nd-level #header-navigation,
 #header #header-navigation {
   position: relative;
   left: auto;
   top: auto;
   width: 100%;
 }
+#header-navigation-2nd-level #header-navigation > div,
 #header #header-navigation > div {
   padding: 0;
   text-align: center;
