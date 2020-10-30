@@ -11,12 +11,12 @@ body {
 }
 
 #inner-container {
-  width: auto;
+  width: 300px;
   display: flex;
   flex-direction: column-reverse;
 }
 
-#header {  
+#header {
   width: 100%;
   height: auto;
   padding: 24px 0;
