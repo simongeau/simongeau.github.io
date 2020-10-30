@@ -94,7 +94,7 @@ body {
   margin: 0 !important;
   float: none !important;
 }
-#left-column #game-navigation:focus, #left-column #game-navigation:focus-within {
+#left-column #game-navigation:hover, #left-column #game-navigation:focus, #left-column #game-navigation:focus-within {
   right: calc(100% - 250px);
 }
 #left-column #game-navigation a {
