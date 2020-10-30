@@ -104,10 +104,10 @@ body {
   position: absolute;
   left: 0.5em;
 }
-#left-column #game-navigation a[href="/game/throne"]:before {
+#left-column #game-navigation a[href*="/throne"]:before {
   content: "👑";
 }
-#left-column #game-navigation a[href="/game/kingdom_details"]:before {
+#left-column #game-navigation a[href*="/kingdom_details"]:before {
   content: "🏰";
 }
 #left-column #game-navigation .navigation > div {
