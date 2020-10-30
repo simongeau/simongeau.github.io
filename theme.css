@@ -74,7 +74,8 @@ body {
   display: none;
 }
 
-#ircchat {
+#ircchat,
+#overlay {
   display: none !important;
 }
 
