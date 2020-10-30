@@ -10,19 +10,19 @@ html {
 }
 @media (min-width: 980px) and (max-width: 980px) {
   html {
-    width: 980px;
+    width: 900px;
   }
 }
 
 body {
   overflow: hidden;
-  width: 980px;
+  width: 900px;
   margin: 0 auto;
   width: 300px;
 }
 @media (min-width: 980px) and (max-width: 980px) {
   body {
-    width: 980px;
+    width: 900px;
   }
 }
 
@@ -33,7 +33,7 @@ body {
 }
 @media (min-width: 980px) and (max-width: 980px) {
   #inner-container {
-    width: 980px;
+    width: 900px;
   }
 }
 
@@ -49,9 +49,9 @@ body {
 }
 @media (min-width: 980px) and (max-width: 980px) {
   #header {
-    padding: 78.4px 0;
-    font-size: 58.8px;
-    box-shadow: 0 0 32.6666666667px rgba(0, 0, 0, 0.4);
+    padding: 72px 0;
+    font-size: 54px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
   }
 }
 #header a {
@@ -132,10 +132,10 @@ body {
 }
 @media (min-width: 980px) and (max-width: 980px) {
   #left-column #game-navigation {
-    top: 156.8px;
-    width: 816.6666666667px;
-    font-size: 65.3333333333px;
-    box-shadow: 0 0 32.6666666667px rgba(0, 0, 0, 0.4);
+    top: 144px;
+    width: 750px;
+    font-size: 60px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
   }
 }
 #left-column #game-navigation:hover, #left-column #game-navigation:focus, #left-column #game-navigation:focus-within {
@@ -143,7 +143,7 @@ body {
 }
 @media (min-width: 980px) and (max-width: 980px) {
   #left-column #game-navigation:hover, #left-column #game-navigation:focus, #left-column #game-navigation:focus-within {
-    right: calc(100% - 816px);
+    right: calc(100% - 750px);
   }
 }
 #left-column #game-navigation a {
@@ -188,10 +188,10 @@ body {
 }
 @media (min-width: 980px) and (max-width: 980px) {
   #left-column #game-navigation .current-date {
-    height: 156.8px;
-    line-height: 156.8px;
-    padding-right: 189.4666666667px;
-    box-shadow: 0 0 32.6666666667px rgba(0, 0, 0, 0.4);
+    height: 144px;
+    line-height: 144px;
+    padding-right: 174px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
   }
 }
 #left-column #resource-bar,
