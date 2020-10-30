@@ -8,7 +8,7 @@ html {
   margin: 0 auto;
   zoom: 1;
 }
-@media (min-width: 980px) and (max-width: 980px) {
+@media (max-device-width: 812px) {
   html {
     width: 900px;
   }
@@ -20,7 +20,7 @@ body {
   margin: 0 auto;
   width: 300px;
 }
-@media (min-width: 980px) and (max-width: 980px) {
+@media (max-device-width: 812px) {
   body {
     width: 900px;
   }
@@ -31,7 +31,7 @@ body {
   display: flex;
   flex-direction: column-reverse;
 }
-@media (min-width: 980px) and (max-width: 980px) {
+@media (max-device-width: 812px) {
   #inner-container {
     width: 900px;
   }
@@ -47,7 +47,7 @@ body {
   font-size: 18px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
-@media (min-width: 980px) and (max-width: 980px) {
+@media (max-device-width: 812px) {
   #header {
     padding: 72px 0;
     font-size: 54px;
@@ -130,7 +130,7 @@ body {
   margin: 0 !important;
   float: none !important;
 }
-@media (min-width: 980px) and (max-width: 980px) {
+@media (max-device-width: 812px) {
   #left-column #game-navigation {
     top: 144px;
     width: 750px;
@@ -141,7 +141,7 @@ body {
 #left-column #game-navigation:hover, #left-column #game-navigation:focus, #left-column #game-navigation:focus-within {
   right: calc(100% - 250px);
 }
-@media (min-width: 980px) and (max-width: 980px) {
+@media (max-device-width: 812px) {
   #left-column #game-navigation:hover, #left-column #game-navigation:focus, #left-column #game-navigation:focus-within {
     right: calc(100% - 750px);
   }
@@ -186,7 +186,7 @@ body {
   padding-right: 58px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
-@media (min-width: 980px) and (max-width: 980px) {
+@media (max-device-width: 812px) {
   #left-column #game-navigation .current-date {
     height: 144px;
     line-height: 144px;
