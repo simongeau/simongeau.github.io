@@ -5,11 +5,13 @@ html {
   color: #ffffff;
   background-color: #222222;
   width: 300px;
+  margin: 0 auto;
 }
 
 body {
   overflow: hidden;
   width: 300px;
+  margin: 0 auto;
 }
 
 #inner-container {
