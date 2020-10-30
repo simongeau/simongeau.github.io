@@ -21,6 +21,7 @@ body {
   width: 900px;
   margin: 0 auto;
   width: 300px;
+  font-size: 1rem !important; 
 }
 @media (max-device-width: 812px) {
   body {
