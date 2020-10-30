@@ -4,19 +4,19 @@ html {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   color: #ffffff;
   background-color: #222222;
-  width: 300px;
+  width: 980px;
   margin: 0 auto;
   zoom: 1;
 }
 
 body {
   overflow: hidden;
-  width: 300px;
+  width: 980px;
   margin: 0 auto;
 }
 
 #inner-container {
-  width: 300px;
+  width: 980px;
   display: flex;
   flex-direction: column-reverse;
 }
@@ -24,12 +24,12 @@ body {
 #header {
   width: 100%;
   height: auto;
-  padding: 24px 0;
+  padding: 78.4px 0;
   position: relative;
   background-color: #000000;
   color: #ffffff;
-  font-size: 18px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  font-size: 58.8px;
+  box-shadow: 0 0 32.6666666667px rgba(0, 0, 0, 0.4);
 }
 #header a {
   text-decoration: none;
@@ -94,22 +94,22 @@ body {
   display: block !important;
 }
 #left-column #game-navigation {
-  width: 250px;
+  width: 816.6666666667px;
   position: fixed;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 32.6666666667px rgba(0, 0, 0, 0.4);
   left: auto;
   right: 100%;
-  top: 48px;
+  top: 156.8px;
   bottom: 0;
   background-color: #111;
   overflow: auto;
-  font-size: 20px;
+  font-size: 65.3333333333px;
   transition: all 0.2s;
   margin: 0 !important;
   float: none !important;
 }
 #left-column #game-navigation:hover, #left-column #game-navigation:focus, #left-column #game-navigation:focus-within {
-  right: calc(100% - 250px);
+  right: calc(100% - 250px * $ratio);
 }
 #left-column #game-navigation a {
   text-decoration: none;
@@ -138,18 +138,18 @@ body {
           appearance: button;
   cursor: pointer;
   transform: translate(0, 0);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 32.6666666667px rgba(0, 0, 0, 0.4);
   z-index: 100;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   background-color: #111;
-  height: 48px;
+  height: 156.8px;
   color: #ffffff;
-  line-height: 48px;
+  line-height: 156.8px;
   text-align: right;
-  padding-right: 58px;
+  padding-right: 189.4666666667px;
 }
 #left-column #resource-bar,
 #left-column .game-header,
