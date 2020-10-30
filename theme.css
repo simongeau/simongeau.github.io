@@ -109,7 +109,7 @@ body {
   float: none !important;
 }
 #left-column #game-navigation:hover, #left-column #game-navigation:focus, #left-column #game-navigation:focus-within {
-  right: calc(100% - 250px * $ratio);
+  right: calc(100% - 816px);
 }
 #left-column #game-navigation a {
   text-decoration: none;
