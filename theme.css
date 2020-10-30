@@ -1,59 +1,148 @@
-@import url("default.css");
-
+@charset "UTF-8";
 html {
   max-width: 100vw;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
-#left-column,
-#right-column,
-#game-navigation,
-#resource-bar {
-  width: 100%;
-  float: none;
-  clear: both;
-}
-#ircchat {
-display: none !important;
+
+body {
+  overflow: hidden;
 }
 
-#middle,
 #inner-container {
-  width: auto !important;
-  overflow: hidden;
- }
+  width: 600px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
 #header {
-  width: auto !important;
+  width: 100%;
+  height: auto;
+  padding: 24px 0;
+  position: relative;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 18px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
-.game-header {
-width: 100%;
-  clear: both;
+#header a {
+  text-decoration: none;
+  color: #ffffff;
 }
-body {
-  width: 280px;
-  margin: 0 auto;
+#header:before {
+  display: block;
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  background-color: #333;
+  top: 0;
+  bottom: 0;
+  width: 100vw;
+  transform: translate(-50%, 0);
 }
-@media (min-device-width: 350px) {
-  body {
-  width: 300px;
+#header #account-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: none;
 }
+#header #header-logo {
+  display: none;
 }
-@media (min-device-width: 400px) {
-  body {
-  width: 350px;
+#header #header-navigation {
+  position: relative;
+  left: auto;
+  top: auto;
+  width: 100%;
 }
+#header #header-navigation > div {
+  padding: 0;
+  text-align: center;
+  display: block;
+  float: none;
+  padding: 0.5em;
 }
-@media (min-device-width: 450px) {
-  body {
-  width: 400px;
+
+#middle > :first-child,
+#middle > :last-child {
+  display: none;
 }
+
+#left-column {
+  width: auto;
+  display: block !important;
 }
-@media (min-device-width: 500px) {
-  body {
-  width: 450px;
+#left-column > :first-child,
+#left-column > :last-child {
+  display: none;
 }
+#left-column #content-area {
+  display: block !important;
 }
-@media (min-device-width: 600px) {
-  body {
-  width: 550px;
+#left-column #game-navigation {
+  width: 250px;
+  position: fixed;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  left: auto;
+  right: 100%;
+  right: 0;
+  top: 48px;
+  bottom: 0;
+  background-color: #111;
+  overflow: auto;
+  font-size: 20px;
+  transition: all 0.2s;
 }
+#left-column #game-navigation:focus, #left-column #game-navigation:focus-within {
+  right: calc(100% - 250px);
+}
+#left-column #game-navigation a {
+  text-decoration: none;
+  color: #ffffff;
+}
+#left-column #game-navigation a:before {
+  position: absolute;
+  left: 0.5em;
+}
+#left-column #game-navigation a[href="/game/throne"]:before {
+  content: "👑";
+}
+#left-column #game-navigation a[href="/game/kingdom_details"]:before {
+  content: "🏰";
+}
+#left-column #game-navigation .navigation > div {
+  display: block;
+  padding: 0.5em 0.5em 0.5em 1.5em;
+}
+#left-column #game-navigation .current-date {
+  -webkit-appearance: button;
+     -moz-appearance: button;
+          appearance: button;
+  cursor: pointer;
+  transform: translate(0, 0);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #111;
+  height: 48px;
+  color: #ffffff;
+  line-height: 48px;
+  text-align: right;
+  padding-right: 58px;
+}
+#left-column #resource-bar,
+#left-column .game-header,
+#left-column .game-content {
+  display: none;
+}
+
+#right-column {
+  display: none;
+}
+
+#footer {
+  display: none;
 }
