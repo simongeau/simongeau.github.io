@@ -85,13 +85,14 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
   left: auto;
   right: 100%;
-  right: 0;
   top: 48px;
   bottom: 0;
   background-color: #111;
   overflow: auto;
   font-size: 20px;
   transition: all 0.2s;
+  margin: 0 !important;
+  float: none !important;
 }
 #left-column #game-navigation:focus, #left-column #game-navigation:focus-within {
   right: calc(100% - 250px);
