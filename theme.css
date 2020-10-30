@@ -71,7 +71,7 @@ body {
 }
 
 #ircchat {
-  display: none;
+  display: none !important;
 }
 
 #left-column {
